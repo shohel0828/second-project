@@ -1,0 +1,161 @@
+.header {
+    background-color: blue;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.logo1 {
+    padding-left: 120px;
+    
+    display: flex;
+    height: 50px;
+    width: 50px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.logo2 {
+    
+    padding-left: 10px;
+   
+}
+ul {
+    display: flex;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+li {
+    list-style: none;
+    padding: 10px;
+    padding-top: 20px;
+}
+li a {
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 20px;
+}
+.do {
+    padding-left: 220px; 
+    margin-left: 140px;
+}
+h2 {
+    padding-left: 60px;
+    color: blueviolet;
+    font-family: 'Poppins', sans-serif;
+}
+h3 {
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.pic {
+    height: 90px;
+    width: 90px;
+    padding-top: 15px;
+    padding-left: 15px;
+   
+}
+
+
+.did {
+    display: flex;
+    
+}
+.text {
+    padding-top: 0px;
+    padding-left: 15px;
+   display: flex;
+   flex-wrap: wrap;
+   font-family: 'Poppins', sans-serif;
+   
+}
+.body {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+}
+.done {
+    display: flex;
+    padding-left: 55px;
+    padding-top: 20px;
+}
+.it {
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    height: 140px;
+}
+.blog {
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.no {
+  
+}
+.foot {
+    padding-top: 30px;
+    padding-left: 55px;
+    
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.to {
+    border: 1px solid blueviolet;
+    border-radius: 10px; 
+    height: 141px;
+    width: 266px;
+}
+.noo {
+    padding-left: 20px;
+    color: orangered;
+}
+.star {
+    padding-left: 20px;
+
+}
+.area {
+    color: white;
+}
+h5 {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    
+}
+.pol {
+    color: blueviolet;
+}
+.lop {
+    padding-left: 15px;
+}
+
+.ji {
+    font-size: 20px;
+    
+    padding-left: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+
+
+
+
+.rating wrapper label {
+    display: inline-block;
+    width: 50px;
+    position: relative;
+    cursor: pointer;
+}
+.rating wrapper label::before {
+    content: "✰";
+    position: absolute;
+    font-size: 50px;
+    display: inline-block;
+    top: 0;
+    left: 0;
+}
